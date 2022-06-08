@@ -1,17 +1,18 @@
 import React from 'react';
 import Header from './components/Layout/Header';
-import Home from './components/Layout/Home';
+import {Home} from './components/Pages/Home';
 import Footer from './components/Layout/Footer';
 
 
+
 const App =()=> {
-  return (<div>
+  return (<section className='section'>
 
     <Header/>
     <Home/>
     <Footer/>
 
-  </div>
+  </section>
   );
 }
 

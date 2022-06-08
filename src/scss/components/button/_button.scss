@@ -1,0 +1,32 @@
+
+#button__hamburger{
+    width:24px;
+    height: 20px;
+}
+
+.button{
+  border-radius: 8px;
+  border: none;
+}
+
+.view--link{
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    // padding: 12rem 10rem;
+    width: 327px;
+    height: 250px;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+    & span{
+        font-size: 3.5rem;
+        line-height: 4.5rem ;
+    }
+    & a{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 5px;
+        font-size: 1.875rem;
+    }
+   
+}

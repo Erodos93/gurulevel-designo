@@ -1,0 +1,33 @@
+// #home__intro--box{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+// }
+
+#intro{
+    &__article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__img--box{
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+    }
+    &__view--links-box{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    & img{
+        padding-left: 15px;
+    }
+}

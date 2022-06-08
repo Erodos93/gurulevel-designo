@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Jost:wght@400;500&display=swap');
+
+html,body{
+ font-family: 'Jost', sans-serif;
+ color: black;
+}
+
+#home__section{
+    color: white;
+}
+h1{
+    font-size: 4rem; //48px
+    line-height: 4rem; //48px
+}
+p{
+    font-size: 1.875rem; // 16px 
+    line-height: 3.25rem; //26px
+}
+
+.view--link{
+   
+    color: white;
+    & span{
+        font-size: 3.5rem;
+        line-height: 4.5rem ;
+        letter-spacing: 1.4px;
+    }
+    & a{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 5px;
+        font-size: 1.875rem;
+    }
+   
+}
