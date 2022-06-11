@@ -3,17 +3,28 @@
 html,body{
  font-family: 'Jost', sans-serif;
  color: black;
+
 }
 
 #home__section{
     color: white;
 }
 h1{
-    font-size: 4rem; //48px
-    line-height: 4rem; //48px
+    font-size: 4.8rem; //48px desktop /32px mobile
+    line-height: 4.8rem; //48px desktop / 36px mobile
 }
-p{
-    font-size: 1.875rem; // 16px 
+h2{
+    font-size: 5rem; //40px /24px
+    line-height: 6rem; //48px /36px
+    letter-spacing: 2px;
+}
+h3{
+    font-size:2.5rem; //20px /4px
+    line-height: 3.25rem; //26px /10px
+    letter-spacing: 5px;
+}
+p,li{
+    font-size: 2rem; // 16px 
     line-height: 3.25rem; //26px
 }
 
@@ -25,11 +36,15 @@ p{
         line-height: 4.5rem ;
         letter-spacing: 1.4px;
     }
-    & a{
-        text-decoration: none;
-        color: white;
-        letter-spacing: 5px;
-        font-size: 1.875rem;
-    }
+    
    
+}
+a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.875rem;
+}
+#nav__list{
+    text-transform: uppercase;
 }

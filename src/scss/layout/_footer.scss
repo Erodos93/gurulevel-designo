@@ -1,0 +1,40 @@
+footer{
+    background-color: #1D1C1E;
+    
+    width: 100%;
+    padding: 0 3rem;
+}
+#footer__nav{
+    // padding: 250px 0;
+    position: relative;
+    height: 498px;
+    top: 250px;
+    color: white;
+    text-align: center;
+    .item:not(:last-child){
+        padding-bottom: 32px;
+    }
+    
+}
+#logo__box{
+    width: 100%;
+    height: min-content;
+    padding-bottom: 32px;
+    // background-color: aquamarine;
+    border-bottom: 0.1px solid rgba(151, 151, 151,0.5);
+    text-align: center;
+   
+}
+.contact{
+    opacity: 0.54;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.social__logo{
+    // width: 100%;
+    & > :not(:last-child){
+
+        padding-right:16px ;
+    }
+}

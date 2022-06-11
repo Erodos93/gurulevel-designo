@@ -1,51 +1,74 @@
-.section{
+.section {
     display: grid;
-    grid-template-rows: 11.875rem min-content;
-    grid-template-columns: minmax(40.875rem,46.875rem);   
+    grid-template-rows: 11.875rem min-content 101.875rem;
+    grid-template-columns: minmax(40.875rem, 46.875rem);
 }
-.grid__container{
- 
+
+.grid__container {
+
     display: grid;
-    grid-template-rows: 783px repeat(3, 1fr);
-    grid-template-columns: minmax(40rem,1fr);    
+    grid-template-rows: 844px  min-content 1396px 316px;
+    grid-template-columns: 3rem minmax(40rem, 1fr) 3rem;
+
 }
-#navigation{
-   
-        grid-row: 1 / 2;
-        grid-column: 1 /-1;
-    
+
+#header__nav {
+
+    grid-row: 1 / 2;
+    grid-column: 1 /-1;
+
 }
-#home__main{
-    grid-row: 2  / 3;
+
+#home__main {
+    grid-row: 2 / 3;
     grid-column: 1 /-1;
 }
-#intro{
-    &__section{
+
+#intro {
+    &__section {
         display: grid;
-        grid-template-columns: 3rem minmax(40rem,1fr) 3rem;
-        grid-template-rows: repeat(2,min-content);
-        grid-row: 1  / 2;
-        grid-column: 1 /-1;
+        grid-template-columns: 3rem minmax(40rem, 1fr) 3rem;
+        grid-template-rows: repeat(2, min-content);
+        grid-row: 1 / 2;
+        grid-column: 1 /4;
     }
-    &__article{
+
+    &__article {
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    &__img--box{
-        grid-column: 2/3;
+
+    &__img--box {
+        grid-column: 1/-1;
         grid-row: 2/3;
     }
 
-    &__view--links-box{
-       
-        grid-row: 1 / 2 ;
-        grid-column: 2/3;
+    &__view--links-box {
+
+        grid-row: 1 / 2;
+        grid-column: 1/-1;
     }
 
 }
-#view__section{
+
+#view__section {
     display: grid;
-    grid-template-columns: 3rem minmax(40rem,1fr) 3rem;
+    grid-template-columns: minmax(40rem, 1fr);
     grid-column: 1 / -1;
     grid-row: 2 / 3;
-    }
+}
+
+#description__section {
+    display: grid;
+    grid-template-columns: minmax(40rem, 1fr);
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
+}
+#contact__section{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+footer{
+    grid-column: 1/-1;
+    grid-row: 3/4;
+}
